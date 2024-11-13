@@ -33,7 +33,7 @@ export const initialState: ChatOptionsState = {
   messages: getMessagesInLocalStorage() || [],
   conversations: getConversationsFromStorage() || [],
   selectedConversation: 0,
-  model: getModelFromStorage() || 'gpt-4',
+  model: getModelFromStorage() || 'gpt-4o',
   customPrompt: getSelectedPrompt() || {
     prompt: '',
     act: '',
